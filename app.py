@@ -6,8 +6,7 @@ load_dotenv()
 
 
 # ---- API Setup ----
-# GROQ_API_KEY = os.getenv("GROQ_API_KEY")  # for local use
-GROQ_API_KEY = st.secrets["API"]["GROQ_API_KEY"]  # for deployment use
+GROQ_API_KEY = st.secrets["API"]["GROQ_API_KEY"]
 MODEL = "llama3-8b-8192"  
 
 def get_groq_response(system_prompt, user_prompt):
