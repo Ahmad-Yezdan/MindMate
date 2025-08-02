@@ -2,4 +2,5 @@
 *.docx
 *.mp4
 *.jpg
+*.png
 .env
