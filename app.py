@@ -1,9 +1,5 @@
 import streamlit as st
 import requests
-import os
-from dotenv import load_dotenv
-load_dotenv()
-
 
 # ---- API Setup ----
 GROQ_API_KEY = st.secrets["API"]["GROQ_API_KEY"]
